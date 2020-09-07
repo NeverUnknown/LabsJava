@@ -17,7 +17,7 @@ public class _2_17 {
         arr[1] = in.nextInt();
         System.out.print("Enter 3rd val: ");
         arr[2] = in.nextInt();
-        System.out.println("__________________");
+        System.out.println("___________________");
         System.out.println("Sum = " + Arrays.stream(arr).sum());
         System.out.println("Average = " + (arr[0] + arr[1] + arr[2]) / Arrays.stream(arr).count());
         System.out.println("Min value = " + Arrays.stream(arr).min().getAsInt());

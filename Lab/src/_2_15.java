@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class _2_15 {
     public static void main(String[] args) {
-        ///Write an application that asks the user to enter two integers, obtains them
+        //Write an application that asks the user to enter two integers, obtains them
         //from the user and prints their sum, product, difference and quotient (division). Use the techniques
         //shown in Fig. 2.7.
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите 1-е число: ");
+        System.out.print("Enter 1st val: ");
         int a = in.nextInt();
-        System.out.print("Введите 2-е число: ");
+        System.out.print("Enter 2nd val: ");
         int b = in.nextInt();
         in.close();//Я не знаю зачем это надо и не понимаю как работает класс Scanner
         System.out.println("__________________");

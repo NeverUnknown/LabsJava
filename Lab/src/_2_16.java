@@ -18,7 +18,7 @@ public class _2_16 {
             System.out.println("Second value is larger");
         }
         else{
-            System.out.println("These values ar equal");
+            System.out.println("These values are equal");
         }
     }
 }

@@ -11,13 +11,11 @@ public class _2_16 {
         System.out.print("Enter 2nd val: ");
         int b = in.nextInt();
         in.close();
-        if(a>b){
+        if (a > b) {
             System.out.println("First value is larger");
-        }
-        else if(a<b){
+        } else if (a < b) {
             System.out.println("Second value is larger");
-        }
-        else{
+        } else {
             System.out.println("These values are equal");
         }
     }

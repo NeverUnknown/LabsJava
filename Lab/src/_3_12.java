@@ -72,7 +72,8 @@ class Invoice {
         return quantity * pricePerItem;
     }
 
-    public String toStringOverride() {
+    @Override
+    public String toString() {
         //String.valueOf(pricePerItem);
         return "----------------\nPart Number: " + partNumber + "\nDescription: " + description +
                 "\nQuantity: " + quantity + "\nPrice per item: " + pricePerItem + "\n----------------";
@@ -84,11 +85,11 @@ class Invoice {
 public class _3_12 {
     public static void main(String[] args) {
         Invoice first = new Invoice("1", "Gold Ingot", 1, 10000);
-        System.out.println(first.toStringOverride());
+        System.out.println(first.toString());
         System.out.println(first.getInvoiceAmount());
 
         Invoice second = new Invoice("2", "Silver Ingot", 4, 2500);
-        System.out.println(second.toStringOverride());
+        System.out.println(second.toString());
         System.out.println(second.getInvoiceAmount());
     }
 }

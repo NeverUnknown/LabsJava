@@ -2,13 +2,7 @@ import java.util.Scanner;
 
 public class _4_17 {
     public static void main(String[] args) {
-
         System.out.println(Trips());
-
-
-
-
-
     }
     public static String Trips(){
         Scanner in = new Scanner(System.in);
@@ -38,9 +32,6 @@ public class _4_17 {
             countOfTrips++;
         }
         in.close();
-
-
         return "Km per liters: "+result+"\nCount of trips: "+countOfTrips+"\n______________________";
     }
-
 }

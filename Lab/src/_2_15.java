@@ -12,7 +12,7 @@ public class _2_15 {
         int b = in.nextInt();
         in.close();//Я не знаю зачем это надо и не понимаю как работает класс Scanner
         System.out.println("__________________");
-        System.out.println("Sum = " + a + b);
+        System.out.println("Sum = " + (a + b));
         System.out.println("Product = " + a * b);
         System.out.println("Difference = " + (a - b));
         if (b == 0) {

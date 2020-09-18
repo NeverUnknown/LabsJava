@@ -55,8 +55,5 @@ public class _3_11 {
         first.withdraw(95.2);
         System.out.println(first.getBalance());
         first.withdraw(100);
-
-
-
     }
 }

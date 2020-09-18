@@ -21,8 +21,8 @@ public class _4_18 {
     //c) total of all items charged by the customer this month
     //d) total of all credits applied to the customer’s account this month
     //e) allowed credit limit.
-    //The program should input all these facts as integers, calculate the new balance (= beginning balance
-    //+ charges – credits), display the new balance and determine whether the new balance exceeds the
+    //The program should input all these facts as integers, calculate the new balance (= beginning balance + charges – credits),
+    // display the new balance and determine whether the new balance exceeds the
     //customer’s credit limit. For those customers whose credit limit is exceeded, the program should display the message "Credit limit exceeded".
 }
 
@@ -115,7 +115,7 @@ class CreditLimitCalculator {
         if (flag) {
             System.out.println("Beginning balance = " + balBeginOfMonth + "\nNew balance = " + newBalance + "\n+ Charges = " + totalItemsCharged + "\n- Credits = " + totalCreditsApplied);
         } else {
-            System.out.println("Credit limit exceedeed");
+            System.out.println("Credit limit exceeded");
         }
     }
 }

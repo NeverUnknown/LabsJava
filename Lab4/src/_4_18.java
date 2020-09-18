@@ -9,14 +9,10 @@ public class _4_18 {
         test.setTotalCreditsApplied(200);
         //test.setTotalCreditsApplied(200);
         test.setTotalCreditsApplied(0);
-
         test.setTotalItemsCharged(500);
         //test.calculate();
         test.getNewBalance();
-
-
     }
-
     //Develop a Java application that determines whether any of several
     //department-store customers has exceeded the credit limit on a charge account. For each customer,
     //the following facts are available:
@@ -28,7 +24,6 @@ public class _4_18 {
     //The program should input all these facts as integers, calculate the new balance (= beginning balance
     //+ charges – credits), display the new balance and determine whether the new balance exceeds the
     //customer’s credit limit. For those customers whose credit limit is exceeded, the program should display the message "Credit limit exceeded".
-
 }
 
 class CreditLimitCalculator {

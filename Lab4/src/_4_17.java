@@ -19,7 +19,7 @@ public class _4_17 {
         }
         if (km <= 0 || liters <= 0) {
             System.out.println("Wrong km or liters!!!");
-            return "Km per liters: " + result + "\nCount of trips: " + countOfTrips + "\n______________________";
+            return "Km per liters: " + result + "\nCount of trips: " + countOfTrips + "\n_____________________";
         }
         while (km != 0 || liters != 0) {
             System.out.print("Enter kilometers >");
@@ -33,6 +33,6 @@ public class _4_17 {
             countOfTrips++;
         }
         in.close();
-        return "Km per liters: " + result + "\nCount of trips: " + countOfTrips + "\n______________________";
+        return "Km per liters: " + result + "\nCount of trips: " + countOfTrips + "\n_____________________";
     }
 }

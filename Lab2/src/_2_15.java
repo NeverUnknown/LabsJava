@@ -18,7 +18,7 @@ public class _2_15 {
         if (b == 0) {
             System.out.println("2nd value is null or 0");
         } else {
-            System.out.println("Division  = " + a / b);
+            System.out.println("Division = " + a / b);
         }
     }
 }

@@ -115,7 +115,7 @@ class CreditLimitCalculator {
         if (flag) {
             System.out.println("Beginning balance = " + balBeginOfMonth + "\nNew balance = " + newBalance + "\n+ Charges = " + totalItemsCharged + "\n- Credits = " + totalCreditsApplied);
         } else {
-            System.out.println("Credit limit exceeded");
+            System.out.println("Credit limit exceeeded");
         }
     }
 }

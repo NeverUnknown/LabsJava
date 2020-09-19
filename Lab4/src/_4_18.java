@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class _4_18 {
     public static void main(String[] args) {
         CreditLimitCalculator test = new CreditLimitCalculator(1, 0, 0, 200, 1000);
-        test.setTotalItemsCharged(500);
+        /*test.setTotalItemsCharged(500);
         test.setTotalItemsCharged(500);
         test.setTotalCreditsApplied(200);
         test.setTotalCreditsApplied(200);
@@ -10,8 +12,28 @@ public class _4_18 {
         //test.setTotalCreditsApplied(200);
         test.setTotalCreditsApplied(0);
         test.setTotalItemsCharged(500);
-        //test.calculate();
-        test.getNewBalance();
+        //test.calculate();*/
+        Scanner in = new Scanner(System.in);
+        boolean exit = false;
+        while (!exit) {
+            System.out.println("1:Charge\n2:Apply\n3:End");
+            int sw = in.nextInt();
+            switch (sw) {
+                case 1:
+                    test.setTotalItemsCharged(in.nextInt());
+                    break;
+                case 2:
+                    test.setTotalCreditsApplied(in.nextInt());
+                    break;
+                case 3:
+                    exit = true;
+                    test.getNewBalance();
+                    break;
+                default:
+                    continue;
+            }
+        }
+        in.close();
     }
     //Develop a Java application that determines whether any of several
     //department-store customers has exceeded the credit limit on a charge account. For each customer,

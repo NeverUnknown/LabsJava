@@ -16,7 +16,7 @@ public class _7_12 {
             if (i == 0) {
                 System.out.print(arr[i] + " ");
             }
-            if (arr[i] == prev) {
+            else if (arr[i] == prev) {
                 prev = arr[i];
             } else {
                 System.out.print(arr[i] + " ");

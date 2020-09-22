@@ -15,11 +15,11 @@ public class _7_14 {
         String pr = "";
         for (int i = 0; i < list.size(); i++) {
             pr += list.get(i).toString();
-            if(i!=list.size()-1){
-                pr+=",";
+            if (i != list.size() - 1) {
+                pr += ",";
             }
         }
-        System.out.println("Product of ("+pr+") is \""+product(list)+"\"");
+        System.out.println("Product of (" + pr + ") is \"" + product(list) + "\"");
         in.close();
     }
 

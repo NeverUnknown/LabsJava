@@ -16,6 +16,7 @@ public class ExcTest {
             throw new ExceptionC("ExceptionC");
         } catch (ExceptionA e) {
             System.out.println(e.getMessage());
+
         }
     }
 }
